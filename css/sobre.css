@@ -59,4 +59,35 @@ figcaption {
     float: right;
     margin: 0 0 10px 10px;
 }
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.sacola {
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+header {
+    position: relative;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+    
+    
+    
+    
     
