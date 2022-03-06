@@ -112,6 +112,8 @@ header {
     width: 140px;
     margin: 2px;
     padding-bottom: 10px;
+    -webkit-transition: 0.7s;
+    transition: 0.7s ease-out;
 }
 
 .painel h2 {
@@ -262,7 +264,20 @@ footer .container {
     background: #dcdcf5;
     background: linear-gradient(#f7f7fc, #9e9ef5);
 }
-    
+
+.painel li:hover {
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 5px #333;
+    -webkit-transition: box-shadow 1.0s;
+    /* transition: box-shadow 1.0; */
+ /*    -webkit-transform: scale(1.2);
+    transform: scale(1.2); */
+    -webkit-transform: scale(1.2) rotate(-5deg);
+    transform: scale(1.2) rotate(-5deg);
+    -webkit-transition: 0.7s ease-in;
+    transition: 0.7s ease-in;
+
+}
     
     
     
